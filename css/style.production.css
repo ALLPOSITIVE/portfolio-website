@@ -31,9 +31,13 @@ h1{
 h2{
   font-size: 24px;
   font-weight:700;
-
 }
 
+h3{
+  font-size: 20px;
+  font-weight:600;
+  margin-left: 30px;
+}
 p{
   font-size: 18px;
   font-weight:700;
@@ -84,14 +88,14 @@ a:active{
 
 #contact-form {
     margin-top: 15px;
-    margin-left:10px;
+    margin-left: 20px;
 }
 
 .navigation-list__item--active{
   text-decoration: none;
 }
 
-.profile__portrait {
+.profile__portrait{
   float: left;
 }
 .profile {
