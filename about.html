@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Portfolio Website</title>
-  <link rel=" shortcut icon" href="img/favicon.png">
+  <link rel="shortcut icon" href="img/favicon.png">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
   <body>
-    <header>
-      <nav>
+
+
         <header class="page-header">
         <!-- Add your logo here -->
-        <img src="img/cf-smk-logo.png" alt="logo" class="page-header__item">
+        <img src="img/cf-smk-logo.svg" alt="logo" id="logo-smk" class="page-header__item">
         <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
             <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item">About S. KHAN</a>
+            <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
           </li>
           <li role="presentation">
             <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
@@ -34,14 +34,16 @@
     </header>
     <h1>About Me</h1>
     <br>
+    <h3>
     Hi, I am Shariyar Khan from Stockport, U.K. I had my Master's in Computer Engineering more than 25 years ago. That was the time when we were taught about the architecture
     and design of XT/AT micrprocessors, languages like Pascal, Turbo C, Boolean Algebra, Networking of mainframe computer systems among many others. I however started my
     career in general management role and worked for several years as quality management consultant, QA manager, etc. In addition to my current job in customer retention,
     I do some internet/digital marketing working from home. This is what interested me in going back to IT career and develop myself as a full stack software developer
     with the help of Career Foundry Ltd.
+    </h3>
+
     <br>
-    <br>
-    <table>
+    <table class="experience">
       <thead>
         <tr>
           <th>Skills</th>
@@ -49,17 +51,20 @@
           <th>Level of Expertise</th>
         </tr>
       </thead>
+
       <tbody>
         <tr>
           <td>HTML</td>
           <td>0-1</td>
           <td>Beginner</td>
         </tr>
+
         <tr>
           <td>CSS</td>
           <td>0-1</td>
           <td>Beginner</td>
         </tr>
+
         <tr>
           <td>JavaScript</td>
           <td>0-1</td>
@@ -1006,12 +1011,12 @@
       </g>
     </svg>
 
-      <footer>
+
         <footer class="page-footer">
         <p>Find me on</p>
-        <div class="social-media">
+          <div class="social-media">
           <!-- Github logo -->
-          <a href = "http://www.gihub.com" target="_blank">
+          <a href = "http://www.github.com/ALLPOSITIVE/portfolio-website" target="_blank">
             <img src="img/github_icon.svg" alt="github">
           </a>
           <!-- Twitter logo -->
@@ -1022,9 +1027,9 @@
           <a href="https://www.linkedin.com" target="_blank">
             <img src="img/linkedin_icon.svg" alt="linkedin">
           </a>
-        </div>
-      </footer>
-    </div>
+          </div>
+        </footer>
+
     <script src="js/tota11y.min.js"></script>
   </body>
 </html>
